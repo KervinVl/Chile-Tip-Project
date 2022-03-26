@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<style>
+body{
+    background-color: #bebdbd59;
+}
+.box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    padding: 5px;
+    border: 4px;
+    border-color: gray;
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+.boxheader {
+    top: 10px;
+    margin-left: 37.5%;
+    font-family: 'Josefin-Sans', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+.boxflag {
+    margin-left: 36%;
+    border-radius: 9px;
+}
+.boxtop{
+    top: 20px;
+    padding: 1px;
+}
+.boxheader:hover{
+    color: rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.boxheader:hover span { cursor: pointer }
+.textbox{
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px;
+    color: rgb(25, 25, 168);
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
+}
+.climatebox{
+    top: 40px;
+    text-decoration: none;
+}
+.physicalbox{
+    top: 60px;
+    text-decoration: none;
+}
+.politicalbox{
+    top: 80px;
+    text-decoration: none;
+}
+.historicalbox{
+    top: 100px;
+    text-decoration: none;
+}
+.culturebox{
+    top: 120px;
+    text-decoration: none;
+}
+.currencybox {
+    top: 140px;
+    text-decoration: none;
+}
+.economybox {
+    top: 160px;
+    text-decoration: none;
+}
+.airlinesbox{
+    top: 180px;
+    text-decoration: none;
+}
+.costbox{
+    top: 200px;
+    text-decoration: none;
+}
+.realstatebox{
+    top: 220px;
+    text-decoration: none;
+}
+.climatebox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.climatebox:hover span { cursor: pointer }
+.physicalbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.physicalbox:hover span { cursor: pointer }
+.politicalbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.politicalbox:hover span { cursor: pointer }
+.historicalbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.historicalbox:hover span { cursor: pointer }
+.culturebox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.climatebox:hover span { cursor: pointer }
+.currencybox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.currencybox:hover span { cursor: pointer }
+.economybox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.economybox:hover span { cursor: pointer }
+.airlinesbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.airlinesbox:hover span { cursor: pointer }
+.costbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.costbox:hover span { cursor: pointer }
+.realstatebox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.realstatebox:hover span { cursor: pointer }
+.name{
+    top: 240px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px;
+    margin: 10px;
+    color:rgb(172, 2, 2);
+}
+.titlemain{
+    position: relative;
+    top: 0px;
+    left: 30%;
+    padding: 3px;
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.subtitlemain{
+    position: relative;
+    top: -25px;
+    left: 30%;
+    padding: 2px;
+    color: rgba(136,153,168,1.00);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.imagemain {
+    position: relative;
+    top: 5px;
+    left: 30%;
+    padding: 3px;
+    width: 475px;
+    height: auto;
+    border-radius: 10px;
+}
+.line {
+    position: relative; margin-top: 10px; width: 700px; left: 6.5%; 
+}
+.title1main{
+    position: relative;
+    top: 10px;
+    left: 30%;
+    padding: 3px;
+    color: black;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+.text1main {
+    position: relative;
+    top: 10px;
+    left: 30%;
+    padding: 3px;
+    color: black;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif; 
+}
+.nextboxmain{
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 30%;
+    padding: 5px;
+    border: 2px solid gray;
+    width: 60%;
+    height: 70px;
+}
+.nextboxmaincontent{
+    padding: 10px;
+}
+.nexttext{
+    position: relative;
+    top: -42%;
+    left: 0%;
+    padding: 4px;
+    color: rgba(136,153,168,1.00);
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none; 
+}
+.nexttext:hover{
+    color: rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.nexttext:hover span { cursor: pointer }
+.componentbox{
+    text-align: right;
+    margin-top: -53px;
+}
+</style>
+<head>
+<body>
+<!-- Left Box -->
+<div class="box"> 
+<div class="boxtop"> 
+<div class="boxflag" > <img src="https://cdn.britannica.com/85/7485-004-00B07230/Flag-Chile.jpg" 
+  width="80px" height="50px"  alt="Chile Flag"></div>
+<div class="boxheader"> <a href="Tip project.html" class="boxheader" > <h3 style="margin-top: -12px;"> Chile </h3> </a> </div> </div>
+<hr style="margin-top: -25px;"> 
+<div class="textbox"> 
+<div class="climatebox"> <a href="Tip climate.html" class="climatebox"><p>Climate</p> </a></div>
+<div class="physicalbox"> <a href="Tip physical.html" class="physicalbox"><p>Physical Features</p> </a></div>
+<div class="politicalbox"> <a href="Tip political.html" class="physicalbox"><p>Political Map</p> </a></div>
+<div class="historicalbox"> <a href="Tip historical.html" class="historicalbox"><p>Historical Sites</p> </a></div>
+<div class="culturebox"> <a href="Tip culture.html" class="culturebox"><p>Culture</p> </a></div>
+<div class="currencybox"> <a href="Tip currency.html" class="currencybox"><p>Currency</p> </a></div>
+<div class="economybox"> <a href="Tip economy.html" class="economybox"><p>Economy</p> </a></div>
+<div class="airlinesbox"> <a href="Tip airlines.html" class="airlinesbox"><p>Airlines</p> </a></div>
+<div class="costbox"> <a href="Tip cost.html" class="costbox"><p>Cost</p> </a></div>
+<div class="realstatebox"> <a href="Tip realestate.html" class="realstatebox"><p>Real Estate</p> </a></div>
+</div>
+<div class="name"> <strong>Kervin Villalobos</strong> </div>
+</div>
+
+<!--Main Page-->
+<!--Title-->
+<div class="titlemain"> <h1>Historical Sites </h1> </div>
+<div class="subtitlemain"> <h3>Made by Kervin Villalobos</h3>  
+<h3>Mr. Barnett, Period 5</h3>  <h3> Last edited: 03/18/2022</h3> </div>
+<hr class="line">
+<img src="https://i0.wp.com/traveluto.com/wp-content/uploads/2017/06/Hand_of_the_Desert.jpg?fit=810%2C541&ssl=1"
+ class="imagemain" style="width: 650px;" alt="mountain"> 
+ <hr class="line">
+ <!--Content-->
+<!--Easter Island-->
+<div class="text1main"> <h4 style="font-size: 25px;"> Easter Island </h4>
+</div>
+<img src="https://image.cnbcfm.com/api/v1/image/106397140-1582085216779gettyimages-511506221.jpeg?v=1582085391"
+ class="imagemain" style="width: 500px;" alt="Santiago">
+ <div class="text1main"> <p> Easter Island is a Chilean island in the south Pacific Ocean, famous for the giant statues known <br> 
+    as Moais, which dot the landscape. Created by the Rapa Nui people, who are thought to have  <br>inhabited the island from the 12th 
+     century onward, hundreds of Moais are spread around the <br> island. The natural beauty, stunning moai, and modern Polynesian culture 
+     are very much worth <br> the trip.  
+     </p></div> 
+    <!--Pukará de Quitor-->
+  <div class="text1main"> <h4 style="font-size: 25px;"> Pukara de Quitor </h4> </div>
+    <img src="http://www.packing-up-the-pieces.com/wp-content/uploads/2020/11/viewpointQuitor-900x675.jpg "
+ class="imagemain" style="width: 500px;" alt="Quitor">
+    <div class="text1main"> <p>The Pre-Columbian archaeological site of Pukara de Quitor is a stone fortress in Chile's 
+        Atacama<br> Desert. Situated close to the desert town of San Pedro de Atacama, the ruins date to perhaps the<br> 
+        12th century AD. The walled city was ruled by the Inca until the 16th century, when the Spanish <br> struggled for
+         two decades to subdue its inhabitants. The Pukara de Quitor is a worthwhile stop<br> while visiting the adorable 
+         hamlet of San Pedro de Atacama. This hillside fortress has an <br> interesting history, epic viewpoints, and some 
+         peculiar head sculptures. 
+    </p></div> 
+        <!--Museum of Memory and Human Rights-->
+    <div class="text1main"> <h4 style="font-size: 25px;"> Museum of Memory and Human Rights </h4> </div>
+     <img src="https://travel.usnews.com/images/John_Englart_Museum_of_Memory_and_Human_Rights.jpg "
+         class="imagemain"  style="width: 500px;" alt="Museum">
+         <div class="text1main"> <p>The Museum of Memory and Human Rights is in Chile's capital city of Santiago and<br> 
+            commemorates the victims of human rights violations committed between 1973 and 1990. <br> During this time, Chile
+             was ruled by the military dictator Augusto Pinochet. The museum was<br> inaugurated in 2010 by former President 
+             Michelle Bachelet. The museum houses testimony from<br> survivors of Pinochet's regime, letters to family members by 
+             prisoners in detention centers, as <br> well as torture devices. 
+            </p></div> 
+    <!--Next Box-->
+<div class="nextboxmain">
+    <a href="Tip culture.html" class="nexttext"> <h3>Next: Culture </h3> <h4 class="componentbox">Component #5 </h3>
+    </a> 
+</div>
+
+</body>
+</html>

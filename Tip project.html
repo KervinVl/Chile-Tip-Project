@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<style>
+body{
+    background-color: #bebdbd59;
+}
+.box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    padding: 5px;
+    border: 4px;
+    border-color: gray;
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+.boxheader {
+    top: 10px;
+    margin-left: 37.5%;
+    font-family: 'Josefin-Sans', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+.boxflag {
+    margin-left: 36%;
+    border-radius: 9px;
+}
+.boxtop{
+    top: 20px;
+    padding: 1px;
+}
+.boxheader:hover{
+    color: rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.boxheader:hover span { cursor: pointer }
+.textbox{
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px;
+    color: rgb(25, 25, 168);
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
+}
+.climatebox{
+    top: 40px;
+    text-decoration: none;
+}
+.physicalbox{
+    top: 60px;
+    text-decoration: none;
+}
+.politicalbox{
+    top: 80px;
+    text-decoration: none;
+}
+.historicalbox{
+    top: 100px;
+    text-decoration: none;
+}
+.culturebox{
+    top: 120px;
+    text-decoration: none;
+}
+.currencybox {
+    top: 140px;
+    text-decoration: none;
+}
+.economybox {
+    top: 160px;
+    text-decoration: none;
+}
+.airlinesbox{
+    top: 180px;
+    text-decoration: none;
+}
+.costbox{
+    top: 200px;
+    text-decoration: none;
+}
+.realstatebox{
+    top: 220px;
+    text-decoration: none;
+}
+.climatebox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.climatebox:hover span { cursor: pointer }
+.physicalbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.physicalbox:hover span { cursor: pointer }
+.politicalbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.politicalbox:hover span { cursor: pointer }
+.historicalbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.historicalbox:hover span { cursor: pointer }
+.culturebox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.climatebox:hover span { cursor: pointer }
+.currencybox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.currencybox:hover span { cursor: pointer }
+.economybox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.economybox:hover span { cursor: pointer }
+.airlinesbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.airlinesbox:hover span { cursor: pointer }
+.costbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.costbox:hover span { cursor: pointer }
+.realstatebox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.realstatebox:hover span { cursor: pointer }
+.name{
+    top: 240px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px;
+    margin: 10px;
+    color:rgb(172, 2, 2);
+}
+.titlemain{
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    padding: 3px;
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.subtitlemain{
+    position: absolute;
+    top: 95px;
+    left: 30%;
+    padding: 2px;
+    color: rgba(136,153,168,1.00);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.imagemain {
+    position: absolute;
+    top: 275px;
+    left: 30%;
+    padding: 3px;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+.line {
+    position: absolute; margin-top: 255px; width: 700px; left: 30%; 
+}
+.title1main{
+    position: absolute;
+    top: 610px;
+    left: 30%;
+    padding: 3px;
+    color: black;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+.text1main {
+    position: absolute;
+    top: 670px;
+    left: 30%;
+    padding: 3px;
+    color: black;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif; 
+}
+.nextboxmain{
+    background-color: white;
+    position: absolute;
+    top: 930px;
+    left: 30%;
+    padding: 5px;
+    border: 2px solid gray;
+    width: 60%;
+    height: 70px;
+}
+.nextboxmaincontent{
+    padding: 10px;
+}
+.nexttext{
+    position: relative;
+    top: -42%;
+    left: 0%;
+    padding: 4px;
+    color: rgba(136,153,168,1.00);
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none; 
+}
+.nexttext:hover{
+    color: rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.nexttext:hover span { cursor: pointer }
+.componentbox{
+    text-align: right;
+    margin-top: -53px;
+}
+
+</style>
+<head>
+<body>
+<!-- Left Box -->
+<div class="box"> 
+<div class="boxtop"> 
+<div class="boxflag" > <img src="https://cdn.britannica.com/85/7485-004-00B07230/Flag-Chile.jpg" 
+  width="80px" height="50px"  alt="Chile Flag"></div>
+<div class="boxheader"> <a href="Tip project.html" class="boxheader" > <h3 style="margin-top: -12px;"> Chile </h3> </a> </div> </div>
+<hr style="margin-top: -25px;"> 
+<div class="textbox"> 
+<div class="climatebox"> <a href="Tip climate.html" class="climatebox"><p>Climate</p> </a></div>
+<div class="physicalbox"> <a href="Tip physical.html" class="physicalbox"><p>Physical Features</p> </a></div>
+<div class="politicalbox"> <a href="Tip political.html" class="physicalbox"><p>Political Map</p> </a></div>
+<div class="historicalbox"> <a href="Tip historical.html" class="historicalbox"><p>Historical Sites</p> </a></div>
+<div class="culturebox"> <a href="Tip culture.html" class="culturebox"><p>Culture</p> </a></div>
+<div class="currencybox"> <a href="Tip currency.html" class="currencybox"><p>Currency</p> </a></div>
+<div class="economybox"> <a href="Tip economy.html" class="economybox"><p>Economy</p> </a></div>
+<div class="airlinesbox"> <a href="Tip airlines.html" class="airlinesbox"><p>Airlines</p> </a></div>
+<div class="costbox"> <a href="Tip cost.html" class="costbox"><p>Cost</p> </a></div>
+<div class="realstatebox"> <a href="Tip realestate.html" class="realstatebox"><p>Real Estate</p> </a></div>
+</div>
+<div class="name"> <strong>Kervin Villalobos</strong> </div>
+</div>
+
+<!--Main Page-->
+<div class="titlemain"> <h1>Chile Tip Project</h1> </div>
+<div class="subtitlemain"> <h3>Made by Kervin Villalobos</h3>  
+<h3>Mr. Barnett, Period 5</h3>  <h3> Last edited: 03/10/2022</h3> </div>
+<hr class="line">
+<img src="https://cdn.gigaplaces.com/storage_thumbs/15131/15131_1170_531_75.jpg?v=1612279351"
+ class="imagemain" alt="Chile City"> 
+ <hr class="line" style="top: 355px;">
+<div class="title1main"> <h2> Why Visit Chile?</h2></div>
+<div class="text1main"> <p>Chile is a paradise for nature lovers and outdoor enthusiasts. Within the 
+    country, one can find a diverse variety of landscapes including vineyards, volcanoes, deserts, beaches,
+     lakes,glaciers and forests. Nature, culture, food and people just are few of the reasons to visit Chile.</p>
+<p>Lay Chile out across the United States and it would reach nearly from coast to coast. That 2,700-mile 
+    length means Chile contains a huge variety of climates and geographies. Which in turn means that 
+    visitors have an amazing number of great experiences awaiting them. With the Andes on one side and 
+    the Pacific on the other, Chile offers a world-class list of things to see and do. And its blend of 
+    indigenous culture and Spanish and other European heritages combine for a welcoming embrace. 
+    Here is a full guide to your trip to Chile.</p>
+</div>
+<div class="nextboxmain"> 
+<!--Create Styles-->
+<a href="Tip climate.html" class="nexttext"> <h3>Next: Climate </h3> <h4 class="componentbox">Component #1 </h3>
+</a> 
+
+</div>
+
+</body>
+</html>

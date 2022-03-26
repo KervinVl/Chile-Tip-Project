@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<style>
+body{
+    background-color: #bebdbd59;
+}
+.box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    padding: 5px;
+    border: 4px;
+    border-color: gray;
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+.boxheader {
+    top: 10px;
+    margin-left: 37.5%;
+    font-family: 'Josefin-Sans', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+.boxflag {
+    margin-left: 36%;
+    border-radius: 9px;
+}
+.boxtop{
+    top: 20px;
+    padding: 1px;
+}
+.boxheader:hover{
+    color: rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.boxheader:hover span { cursor: pointer }
+.textbox{
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px;
+    color: rgb(25, 25, 168);
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
+}
+.climatebox{
+    top: 40px;
+    text-decoration: none;
+}
+.physicalbox{
+    top: 60px;
+    text-decoration: none;
+}
+.politicalbox{
+    top: 80px;
+    text-decoration: none;
+}
+.historicalbox{
+    top: 100px;
+    text-decoration: none;
+}
+.culturebox{
+    top: 120px;
+    text-decoration: none;
+}
+.currencybox {
+    top: 140px;
+    text-decoration: none;
+}
+.economybox {
+    top: 160px;
+    text-decoration: none;
+}
+.airlinesbox{
+    top: 180px;
+    text-decoration: none;
+}
+.costbox{
+    top: 200px;
+    text-decoration: none;
+}
+.realstatebox{
+    top: 220px;
+    text-decoration: none;
+}
+.climatebox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.climatebox:hover span { cursor: pointer }
+.physicalbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.physicalbox:hover span { cursor: pointer }
+.politicalbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.politicalbox:hover span { cursor: pointer }
+.historicalbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.historicalbox:hover span { cursor: pointer }
+.culturebox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.climatebox:hover span { cursor: pointer }
+.currencybox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.currencybox:hover span { cursor: pointer }
+.economybox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.economybox:hover span { cursor: pointer }
+.airlinesbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.airlinesbox:hover span { cursor: pointer }
+.costbox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.costbox:hover span { cursor: pointer }
+.realstatebox:hover{
+    color:rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.realstatebox:hover span { cursor: pointer }
+.name{
+    top: 240px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px;
+    margin: 10px;
+    color:rgb(172, 2, 2);
+}
+.titlemain{
+    position: relative;
+    top: 0px;
+    left: 30%;
+    padding: 3px;
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.subtitlemain{
+    position: relative;
+    top: -25px;
+    left: 30%;
+    padding: 2px;
+    color: rgba(136,153,168,1.00);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.imagemain {
+    position: relative;
+    top: 5px;
+    left: 30%;
+    padding: 3px;
+    width: 475px;
+    height: auto;
+    border-radius: 10px;
+}
+.line {
+    position: relative; margin-top: 10px; width: 700px; left: 6.5%; 
+}
+.title1main{
+    position: relative;
+    top: 10px;
+    left: 30%;
+    padding: 3px;
+    color: black;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+.text1main {
+    position: relative;
+    top: 10px;
+    left: 30%;
+    padding: 3px;
+    color: black;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif; 
+}
+.nextboxmain{
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 30%;
+    padding: 5px;
+    border: 2px solid gray;
+    width: 60%;
+    height: 70px;
+}
+.nextboxmaincontent{
+    padding: 10px;
+}
+.nexttext{
+    position: relative;
+    top: -42%;
+    left: 0%;
+    padding: 4px;
+    color: rgba(136,153,168,1.00);
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none; 
+}
+.nexttext:hover{
+    color: rgb(172, 2, 2);
+    text-decoration:none;
+    text-shadow: 0 0 2px #999;
+}
+.nexttext:hover span { cursor: pointer }
+.componentbox{
+    text-align: right;
+    margin-top: -53px;
+}
+</style>
+<head>
+<body>
+<!-- Left Box -->
+<div class="box"> 
+<div class="boxtop"> 
+<div class="boxflag" > <img src="https://cdn.britannica.com/85/7485-004-00B07230/Flag-Chile.jpg" 
+  width="80px" height="50px"  alt="Chile Flag"></div>
+<div class="boxheader"> <a href="Tip project.html" class="boxheader" > <h3 style="margin-top: -12px;"> Chile </h3> </a> </div> </div>
+<hr style="margin-top: -25px;"> 
+<div class="textbox"> 
+<div class="climatebox"> <a href="Tip climate.html" class="climatebox"><p>Climate</p> </a></div>
+<div class="physicalbox"> <a href="Tip physical.html" class="physicalbox"><p>Physical Features</p> </a></div>
+<div class="politicalbox"> <a href="Tip political.html" class="physicalbox"><p>Political Map</p> </a></div>
+<div class="historicalbox"> <a href="Tip historical.html" class="historicalbox"><p>Historical Sites</p> </a></div>
+<div class="culturebox"> <a href="Tip culture.html" class="culturebox"><p>Culture</p> </a></div>
+<div class="currencybox"> <a href="Tip currency.html" class="currencybox"><p>Currency</p> </a></div>
+<div class="economybox"> <a href="Tip economy.html" class="economybox"><p>Economy</p> </a></div>
+<div class="airlinesbox"> <a href="Tip airlines.html" class="airlinesbox"><p>Airlines</p> </a></div>
+<div class="costbox"> <a href="Tip cost.html" class="costbox"><p>Cost</p> </a></div>
+<div class="realstatebox"> <a href="Tip realestate.html" class="realstatebox"><p>Real Estate</p> </a></div>
+</div>
+<div class="name"> <strong>Kervin Villalobos</strong> </div>
+</div>
+
+<!--Main Page-->
+<!--Title-->
+<div class="titlemain"> <h1>Cost</h1> </div>
+<div class="subtitlemain"> <h3>Made by Kervin Villalobos</h3>  
+<h3>Mr. Barnett, Period 5</h3>  <h3> Last edited: 03/24/2022</h3> </div>
+<hr class="line">
+<img src="https://d3hne3c382ip58.cloudfront.net/files/uploads/bookmundi/resized/cmsfeatured/chile-itinerary-trekking-1561460617-785X440.jpg"
+ class="imagemain" style="width: 700px;" alt="Trip"> 
+ <hr class="line">
+ <!--Content-->
+<!--Airlines-->
+ <div class="text1main"> <p>The average price of a 5-day trip for a family of 4 to Chile is $3,508. Depending on activities, <br> 
+    budgeting $29 to $60 per person per day for transportation and enjoying local restaurants is <br> recommended. Daily 
+    expenses per day for 4 people ranges between $116 to $240 only including <br> Food, Travel, and Sightseeing. 2 recognized 
+    hotels in Santiago Chile are Sheraton Santiago Hotel <br> and Convention Center and Mercure Santiago Centro.
+</p></div> 
+ <!--Sheraton-->
+ <div class="text1main"> <h4 style="font-size: 25px;"> Sheraton Santiago Hotel </h4>
+ </div>
+ <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/91/1a/75/exterior.jpg?w=900&h=-1&s=1"
+  class="imagemain" style="width: 500px;" alt="Avianca">
+  <div class="text1main"> <p>Sheraton Santiago Hotel is 5-Star Sophisticated hotel with stately rooms, 2 restaurants, a full-service <br> 
+    spa & a bar with a pisco menu. The price per night for a family of 4 in Sheraton Santiago <br> Hotel is $1485 for 5 nights.  
+      </p></div> 
+  <!--Mercure Santiago Centro-->
+  <div class="text1main"> <h4 style="font-size: 25px;"> Mercure Santiago Centro </h4>
+  </div>
+  <img src="https://exp.cdn-hotels.com/hotels/2000000/1550000/1541200/1541172/9fecb482_z.jpg?impolicy=fcrop&w=500&h=333&q=medium"
+   class="imagemain" style="width: 500px;" alt="LAN Airlines">
+   <div class="text1main"> <p> The Mercure Santiago Centro is a 4-Star hotel with modern rooms that has everything you need. <br> 
+    The price per night for a family of 4 in Mercure Santiago Centro is $526 for 5 nights.  
+       </p></div> 
+  <!--Best Option-->
+  <div class="text1main"> <h4 style="font-size: 25px;"> What is the best option? </h4>
+  </div>
+   <div class="text1main"> <p> If the highest quality of service is wanted Sheraton Santiago Hotel is the way to go, but if a more  <br> 
+    affordable hotel with still good quality service is wanted Mercure Santiago Centro may be your <br> choice.
+       </p></div> 
+    <!--Next Box-->
+<div class="nextboxmain">
+    <a href="Tip realestate.html" class="nexttext"> <h3>Next: Real State </h3> <h4 class="componentbox">Component #10 </h3>
+    </a> 
+</div>
+
+</body>
+</html>
